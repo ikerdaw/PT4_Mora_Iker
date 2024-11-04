@@ -1,0 +1,123 @@
+/* Importem la tipografia de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* Estils globals */
+body {
+    background-color: #f8f9fa; /* Color de fons suau */
+    font-family: 'Roboto', sans-serif; /* Tipus de lletra moderna i professional */
+    color: #333; /* Color de lletra principal */
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li {
+    margin: 5px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 5px 10px;
+}
+
+/* Contenidor principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estil per a l'encapçalament */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header .main-img {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estil per a les seccions */
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #0073e6; /* Color del text del títol */
+}
+
+section p {
+    font-size: 1em;
+    color: #555; /* Color de la lletra */
+    line-height: 1.6;
+}
+
+/* Estil per als enllaços */
+a {
+    color: #0073e6; /* Color de la lletra compatible amb el color de fons */
+    text-decoration: none; /* Sense subratllat */
+}
+
+a:hover {
+    text-decoration: underline; /* Subratllat quan es passa el cursor */
+}
+
+/* Estil per a les imatges del projecte */
+.project-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Importem la tipografia de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* Estils globals */
+body {
+    background-color: #f8f9fa; /* Color de fons suau */
+    font-family: 'Roboto', sans-serif; /* Tipus de lletra moderna i professional */
+    color: #333; /* Color de lletra principal */
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenidor principal */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estil per a les taules */
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #ccc;
+}
+th, td {
+    padding: 20px;
+    text-align: center;
+}
